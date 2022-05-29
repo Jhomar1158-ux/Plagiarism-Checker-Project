@@ -18,7 +18,7 @@ header p{
 
 /* ============MAIN================ */
 .container1_inputs{
-    margin: 80px;
+    margin: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -37,15 +37,42 @@ header p{
 }
 
 .btn_container1{
-    width: 200px;
-    height: 50px;
+    
     background-color: black;
     color: white;
     border-radius:10px ;
     cursor: pointer;
     font-size: 20px;
+    width: 200px;
+    height: 50px;
 }
 
 textarea {
     resize: none;
+}
+
+.container1_porcentaje{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container1_porcentaje p span{
+    font-size: 50px;
+}
+
+.btn2_container2{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 10px;
 }
