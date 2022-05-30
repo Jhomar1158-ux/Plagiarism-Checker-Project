@@ -14,17 +14,19 @@
     <main>
         <div class="container1">
             <div class="container1_porcentaje">
-                <p><span>100%</span> de similitud </p>
-                <p>Texto1: {{ texto1 }}</p>
-                <p>Texto2: {{ texto2 }}</p>
+                <p><span>{{ porcent }} %</span> de similitud </p>
+                
+                
             </div>
             <form action="/plagiarism-checker" method="POST" class="container1_forms">
                 <div class="container1_inputs">
                     <div class="container_left">
                         <textarea name="text1" id="" cols="70" rows="8" placeholder="Introduce un texto" value="{{ texto1 }}"></textarea>
+                        <p>Texto1: {{ texto1 }}</p>
                     </div>
                     <div class="container_right">
                         <textarea name="text2" id="" cols="70" rows="8" placeholder="Introduce un texto" value="{{ texto2 }}"></textarea>
+                        <p>Texto2: {{ texto2 }}</p>
                     </div>
                 </div>
                 <input type="submit" value="Compare" class="btn_container1">
